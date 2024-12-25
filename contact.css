@@ -97,7 +97,7 @@ header {
   padding: 2vh;
   display: flex;
   justify-content: space-evenly;
-  /* align-items: center; */
+  align-items: center;
   color: White;
   margin-right: 0.6vw;
   background-color: black;
