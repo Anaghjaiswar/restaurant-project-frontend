@@ -15,7 +15,7 @@
         <div id="logophoto"><img src="assets/lazeezEats.jpg" alt="logophoto" id="logoimage"></div>
         <div id="Header1">
             <div id="menu" class="firstHeader"><a href="menu.html" class="firstHeadercontent border">Menu</a></div>
-            <div id="location" class="firstHeader"><a href="locations.html" class="firstHeadercontent border">Locations</a></div>
+            <div id="location" class="firstHeader"><a href="Recipe-blog.html" class="firstHeadercontent border">Recipe-Blog</a></div>
             <div id="services" class="firstHeader"><a href="GiftVouchers.html" class="firstHeadercontent border">Gift Vouchers</a></div>
             <div id="ourStory" class="firstHeader"><a href="Our_story.html" class="firstHeadercontent border">Our Story</a></div>
         </div>
@@ -28,7 +28,7 @@
     </header>
 
     <main>
-        <div id="order-container">
+        <!-- <div id="order-container">
             <div id="left-section">
                 <img src="assets/pexels-photo-1581384.jpeg" alt="Delicious Food" id="hero-image">
             </div>
@@ -45,7 +45,7 @@
 
                 <a href="menu.html"><button class="explore-button">Explore Our Menu</button></a>
             </div>
-        </div>
+        </div> -->
 
         <div id="order-form-container">
             <h2>Order Food</h2>
@@ -82,6 +82,10 @@
                     <input type="tel" id="contact-number" name="contact-number" required>
                 </div>
                 <div class="form-group">
+                    <label for="E-mail">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
                     <button type="submit" class="submit-button">Place Order</button>
                 </div>
             </form>
@@ -93,9 +97,9 @@
         <div class="footerParts" id="footer1">
             <div class="footercontainerParts" id="iam1">
                 <div id="home-3" class="footerlinks"><a href="index.html">Home</a></div>
-                <div id="Locations" class="footerlinks"><a href="locations.html">Locations</a></div>
-                <div id="Careers" class="footerlinks"><a href="#">Carrers</a></div>
-                <div id="Privacy" class="footerlinks"><a href="#">Privacy Policy</a></div>
+                <div id="Locations" class="footerlinks"><a href="Recipe-blog.html">Recipe-Blog</a></div>
+                <div id="Careers" class="footerlinks"><a href="terms-of-service.html">Terms Of Service</a></div>
+                <div id="Privacy" class="footerlinks"><a href="privacy-policy.html">Privacy Policy</a></div>
                 <div id="Gift Vouchers" class="footerlinks"><a href="GiftVouchers.html">Gift Vouchers</a></div>
             </div>
             <div class="footercontainerParts" id="iam2">
@@ -116,6 +120,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script src="order.js"></script>
 </body>
 </html>
